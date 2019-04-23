@@ -1,11 +1,12 @@
 /*
- Name:    Prueba_Sensores.ino
- Created: 07/04/2019 17:23:59
- Author:  borxo
+ Name:		Control_Proporcional.ino
+ Created:	07/04/2019 17:23:59
+ Author:	Borxo García
+ Proyect:   Robot BoB
 */
 
 //Habilitación DEBUG//
-//#define DEBUG
+#define DEBUG
 
 //Constantes//
 const int pin[] = { 13,3,4,5,6,7,8,9,12 };
