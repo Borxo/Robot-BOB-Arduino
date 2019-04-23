@@ -35,6 +35,11 @@ void setup()
 		pinMode(InputI[i], OUTPUT);
 		pinMode(pin[i], INPUT);
 	}
+
+	#ifdef DEBUG
+		Serial.begin(4800);
+	#endif // DEBUG
+
 	
 }
 
