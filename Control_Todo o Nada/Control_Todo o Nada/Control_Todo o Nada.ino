@@ -9,7 +9,7 @@
 #define DEBUG
 
 //Constantes//
-const int pin[] = { 13,3,4,5,6,7,8,9,12 };
+const int Sensor[] = { 13,3,4,5,6,7,8,9,12 };
 const int InputD[] = { 14,15 };
 const int InputI[] = { 16,17 };
 const int enableD = 10;
@@ -27,7 +27,7 @@ void setup() {
 	for (int i = 8; i >= 0; i--) {
 		pinMode(InputD[i], OUTPUT);
 		pinMode(InputI[i], OUTPUT);
-		pinMode(pin[i], INPUT);
+		pinMode(Sensor[i], INPUT);
 	}
 #ifdef DEBUG
 	Serial.begin(4800);
@@ -44,7 +44,7 @@ void LecturaSensores()
 
 	for (int i = 0; i <= 8; i++)
 	{
-		estado |= digitalRead(pin[i]) << i;
+		estado |= digitalRead(Sensor[i]) << i;
 	}
 
 #ifdef DEBUG
