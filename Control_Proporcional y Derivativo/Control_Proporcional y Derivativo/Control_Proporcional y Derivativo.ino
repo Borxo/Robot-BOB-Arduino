@@ -1,5 +1,5 @@
 /*
- Name:		Control_Proporcional.ino
+ Name:		Control_Proporcional y Derivativo.ino
  Created:	07/04/2019 17:23:59
  Author:	Borxo García
  Proyect:   Robot BoB
