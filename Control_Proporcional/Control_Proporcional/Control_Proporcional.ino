@@ -18,12 +18,12 @@ const int enableI = 11;
 //Variables//
 int estado = 0;
 int error = 0;
-int control = 0;
-int control1 = 0;
+float control = 0;
+float control1 = 0;
 
 //Variables control Proporcional//
-int velocidad = 50;
-int kp = 6;
+float velocidad = 50;
+float kp = 6;
 
 
 
@@ -35,10 +35,6 @@ void setup()
 		pinMode(InputI[i], OUTPUT);
 		pinMode(pin[i], INPUT);
 	}
-	#ifdef DEBUG
-		Serial.begin(4800);
-	#endif // DEBUG
-
 	
 }
 
