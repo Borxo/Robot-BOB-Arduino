@@ -18,11 +18,13 @@ const int enableI = 11;
 //Variables//
 int estado = 0;
 int error = 0;
-int velocidad = 50;
-int velocidadMax = 70;
-int kp = 6;
 int control = 0;
 int control1 = 0;
+
+//Variables control Proporcional//
+int velocidad = 50;
+int kp = 6;
+
 
 
 
