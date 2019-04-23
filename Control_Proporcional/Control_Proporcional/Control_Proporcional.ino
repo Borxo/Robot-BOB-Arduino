@@ -217,16 +217,13 @@ void Motores()
 
 	if (control < 0)
 	{
-
 		control = abs(control);
 		digitalWrite(InputI[0], LOW);
 		digitalWrite(InputI[1], HIGH);
-
 	}
 
 	else if (control1 < 0)
 	{
-
 		control1 = abs(control1);
 		digitalWrite(InputD[0], LOW);
 		digitalWrite(InputD[1], HIGH);
